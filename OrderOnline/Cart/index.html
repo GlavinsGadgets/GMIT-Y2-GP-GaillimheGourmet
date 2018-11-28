@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gaillimhe Gourmet is a fast food restaurant based in the heart of Galway, Ireland">
+    <meta name="author" content="Eanna Glavin, Eamon Conneely, Joe Lyons">
+	
+	<title>Order Online-Cart - Gaillimhe Gourmet</title>
+	<link href="../../imgs/GG_Logo.png" rel="icon"/>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../../css/myStyle.css" rel="stylesheet" />
+	<link href="../../css/orderonline.css" rel="stylesheet" />
+	<script src="../../js/shop.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div id="site">
+	
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+	    
+		<div class="navbar-header">
+		
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="../../index.html">
+				<img src="../../imgs/GG_Logo.gif" alt="Home Page" title="Home" class="logo">
+			</a>
+			
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			
+			<ul class="nav navbar-nav">
+				<li>	<a href="../../Menu/index.html" class="navlia">Menu</a>						</li>
+				<li>	<a href="../../Media/index.html" class="navlia">Media</a>					</li>
+				<li>	<a href="../../About/index.html" class="navlia">About</a>					</li>
+				<li>	<a href="../../Contact/index.html" class="navlia">Contact</a>				</li>
+				<li>	<a href="../../OrderOnline/index.html" class="navlia">Order Online</a>		</li>
+			</ul>
+			
+		</div><!-- /.navbar-collapse -->
+			
+	</div>
+</nav>
+	
+<div class="container container-main">
+	<div class="row">
+		<div class="col-lg-12">
+
+		<form id="shopping-cart" action="index.html" method="post">
+			
+			<table class="shopping-cart">
+				<thead>
+					<tr>
+						<th scope="col">Item</th>
+						<th scope="col">Qty</th>
+						<th scope="col">Price</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+					
+			<p id="sub-total">	<strong>Sub Total</strong>: <span id="stotal"></span>	</p>
+			
+			<ul id="shopping-cart-actions">
+				<li>	<input type="submit" name="update" id="update-cart" class="btn btn-md orderOnline" value="Update Cart" />	</li>
+				<li>	<input type="submit" name="delete" id="empty-cart" class="btn btn-md orderOnline" value="Empty Cart" />	</li>
+				<li>	<a href="../index.html" class="btn btn-md orderOnline">Continue Shopping</a>		</li>
+				<li>	<a href="../Checkout/index.html" class="btn btn-md orderOnline">Go To Checkout</a>		</li>
+			</ul>
+		
+		</form>
+				
+		</div>
+	</div>
+	
+	<footer>
+		<div class="row">
+			<div class="col-lg-12 footercenter" >
+				<a href="mailto:gaillimhegourmet@gaillimhegourmet.ie" title="Email"><img src="../../imgs/social-email.png"></a>
+				<a href="https://www.facebook.com/gaillimhegourmet" title="Facebook"><img src="../../imgs/social-f.png"></a>
+				<a href="https://twitter.com/gaillimhegourmet" title="Facebook"><img src="../../imgs/social-t.png"></a>
+				<a href="https://www.youtube.com/gaillimhegourmet" title="Youtube"><img src="../../imgs/social-yt.png"></a>
+				<p>Copyright &copy; Eanna Glavin, Eamon Conneely, Joe Lyons</p>
+			</div>
+		</div>
+	</footer>
+	
+</div>
+
+<script src="../../js/jquery.js" type="text/javascript"></script>
+<script src="../../js/bootstrap.js" type="text/javascript"></script>
+<script src="../../js/topbarresize.js" type="text/javascript"></script>
+
+</div>
+
+</body>
+</html>	
